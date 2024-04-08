@@ -1,0 +1,88 @@
+/* Write your CSS here */
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.repository-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+    background-color: #f8f8ff;
+    border-radius: 24px;
+    height: 300px;
+    margin-bottom: 24px;
+    padding: 24px;
+  }
+  
+  @media (min-width: 576px) {
+    .repository-item {
+      flex-basis: 45%;
+      margin-left: 16px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .repository-item {
+      flex-basis: 30%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .repository-item {
+      flex-basis: 25%;
+    }
+  }
+  
+  .repository-image {
+    width: 92px;
+    height: 92px;
+  }
+  
+  .repository-name {
+    color: #e73959;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .stats-container {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 16px;
+  }
+  
+  .stats-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+  }
+  
+  .stats-text {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 0px;
+  }
+  
+  /* .list-item {
+    margin: 20px;
+    display: flex;
+    height: 300px;
+  }
+  .small-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .small-image {
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+  } */

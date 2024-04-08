@@ -1,0 +1,111 @@
+/* Write your CSS here */
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #e5f276, #ffd57a, #ffbca0, #ffb2cf, #f6b6f1);
+    min-height: 100vh;
+  }
+  
+  .responsive-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .heading {
+    color: #0f172a;
+    font-family: 'Lobster';
+    font-size: 48px;
+    margin-bottom: 48px;
+  }
+  
+  .filters-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  .repositories-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px;
+    max-width: 1140px;
+  }
+  
+  .failure-view-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .failure-view-image {
+    width: 250px;
+    height: 180px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .error-view-image {
+      width: 527px;
+      height: 393px;
+    }
+  }
+  
+  .error-message {
+    text-align: center;
+    color: #334155;
+    font-family: 'Bree Serif';
+    font-size: 28px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .error-message {
+      font-size: 48px;
+    }
+  }
+  
+  /* .main-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .items-container {
+    width: 600px;
+    box-shadow: black;
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .failure-img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .popular-heading {
+    font-family: 'Lobster';
+    font-size: 23px;
+    font-weight: 500;
+    color: #1e293b;
+  } */
